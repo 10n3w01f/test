@@ -51,6 +51,11 @@
 				</configuration>
 			</plugin>
 			<plugin>
+          			<groupId>org.apache.maven.plugins</groupId>
+          			<artifactId>maven-surefire-plugin</artifactId>
+          			<version>3.0.0-M3</version>
+        		</plugin>
+			<plugin>
 				<!-- Java EE 6 doesn't require web.xml, Maven needs to catch up! -->
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
