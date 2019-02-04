@@ -70,13 +70,13 @@
     <repository>
         <id>deployment</id>
         <name>Internal Release1</name>
-        <url>http://10.142.0.4:8081/repository/maven-releases/</url>
+        <url>http://35.231.133.182:8081/repository/maven-releases/</url>
     </repository>
 
     <snapshotRepository>
         <id>deployment</id>
         <name>Internal Releases</name>
-        <url>http://10.142.0.4:8081/repository/maven-snapshots/</url>
+        <url>http://35.231.133.182:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
